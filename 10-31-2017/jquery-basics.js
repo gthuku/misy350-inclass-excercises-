@@ -18,18 +18,18 @@ $('#heading-button').click(function () {
 //toggle button click
 $('#toggle-button').click(function() {
   $('.my-link').toggle();
-});
+})
+
   //hide and show main text
-  $("#main-text").hide();
-  $("#main-text").fadeIn(5000);
+  $('#main-text').hide();
+  $('#main-text').fadeIn(5000);
 
   //hide projects
   $('.projects').hide();
 
   //show projects by clicking
   $('.project-button').click(function () {
-    $(this.next().slideToggle(500);
-  //$('.projects').slideToggle(5000);
+    $(this).next().slideToggle(500);
 })
 
 }
